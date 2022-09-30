@@ -12,5 +12,9 @@ const pesquisa = document.querySelector("#pesquisar");
 
 pesquisa.addEventListener("click",(e)=>{
     e.preventDefault;
-    console.log("teste");
+    
+
+    const cidade = cityInput.value;
+
+    console.log(cidade);
 })
